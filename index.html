@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Weather</title>
+    <script type="module" crossorigin src="/assets/index-BmuVkRU8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DsdYzt2v.css">
+  </head>
+  <body id="body">
+    <div class="mask">
+      <div class="mask__right-search">
+        <input id="searchInput" placeholder="Search Location..." type="text">
+        <button id="searchBtn">
+          <img src="/images/icons/search-icon.svg" alt="search-icon">
+        </button>
+      </div>
+      <div class="content">
+        <div class="content__left">
+          <p class="content__left-temp">
+            <span id="mainTemp"></span><span>°</span>
+          </p>
+          <div class="content__left-info">
+            <p class="content__left-info-city" id="city">London</p>
+            <p class="content__left-info-date" >
+              <span id="time">06:09</span>
+              -
+              <span id="weekDay">Monday</span>
+              ,
+              <span id="monthDay">9</span>
+              <span id="month">Sep</span>
+              '
+              <span id="year">23</span>
+            </p>
+          </div>
+          <div class="content__left-img">
+            <img src="/images/icons/outline.svg" id="weatherIcon" alt="weather_icon">
+          </div>
+        </div>
+        <div class="content__right">
+          <div class="content__right-details">
+            <h2 >Weather Details...</h2>
+            <div class="content__right-details-box">
+              <h3 id="description">thunderstorm with light drizzle</h3>
+              <div>
+                <p>
+                  <span>Temp max</span><span id="tempMax"> 19°</span>
+                </p>
+                <div class="icon">
+                  <img src="/images/icons/temp-min.svg" alt="temp-max">
+                </div>
+              </div>
+              <div>
+                <p>
+                  <span>Temp min</span><span id="tempMin"> 15°</span>
+                </p>
+                <div class="icon">
+                  <img src="/images/icons/temp-max.svg" alt="temp-min">
+                </div>
+              </div>
+              <div>
+                <p>
+                  <span>Humadity</span><span id="humidity"> 58%</span>
+                </p>
+                <div class="icon">
+                  <img src="/images/icons/humadity.svg" alt="humadity">
+                </div>
+              </div>
+              <div>
+                <p>
+                  <span>Cloudy</span><span id="cloudy"> 86%</span>
+                </p>
+                <div class="icon">
+                  <img src="/images/icons/cloudy.svg" alt="cloudy">
+                </div>
+              </div>
+              <div>
+                <p>
+                  <span>Wind</span><span id="wind">5km/h</span>
+                </p>
+                <div class="icon">
+                  <img src="/images/icons/wind.svg" alt="wind">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
